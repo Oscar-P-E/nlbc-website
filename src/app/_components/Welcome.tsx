@@ -1,8 +1,8 @@
 export default function Welcome() {
   return (
     <div className="prose md:prose-lg lg:prose-2xl prose-zinc prose-img:mb-0 mx-auto max-w-none bg-zinc-200 px-4 pb-12 pt-36">
-      <div className="flex items-center">
-        <h1 className="mx-auto pb-8 text-zinc-950 ">
+      <div className="flex items-center font-serif">
+        <h1 className="mx-auto pb-8 text-zinc-950">
           Welcome to New Life Baptist Church
         </h1>
       </div>
