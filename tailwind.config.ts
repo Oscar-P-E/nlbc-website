@@ -9,6 +9,7 @@ export default {
         heading: ["var(--font-heading)", ...fontFamily.sans],
         body: ["var(--font-body)", ...fontFamily.sans],
         serif: ["var(--font-serif)", ...fontFamily.serif],
+        other: ["Lato", ...fontFamily.sans],
       },
     },
   },
