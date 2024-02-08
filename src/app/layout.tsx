@@ -1,14 +1,15 @@
 import "~/styles/globals.css";
 
-import { Inter as bodyFont } from "next/font/google";
+import { Inter as sansFont } from "next/font/google";
 import { Oswald as headingFont } from "next/font/google";
-import { EB_Garamond as serifFont } from "next/font/google";
+// import { EB_Garamond as serifFont } from "next/font/google";
+import { Crimson_Text as serifFont } from "next/font/google";
 
 import { TRPCReactProvider } from "~/trpc/react";
 
-const body = bodyFont({
+const sans = sansFont({
   subsets: ["latin"],
-  variable: "--font-body",
+  variable: "--font-sans",
 });
 
 const heading = headingFont({
@@ -16,9 +17,10 @@ const heading = headingFont({
   variable: "--font-heading",
 });
 
-const serif = serifFont({
+const body = serifFont({
+  weight: ["400", "600", "700"],
   subsets: ["latin"],
-  variable: "--font-serif",
+  variable: "--font-body",
 });
 
 export const metadata = {
@@ -36,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`font-body ${body.variable} ${heading.variable} ${serif.variable}`}
+        className={`font-body ${body.variable} ${heading.variable} ${sans.variable}`}
       >
         <TRPCReactProvider>{children}</TRPCReactProvider>
       </body>
