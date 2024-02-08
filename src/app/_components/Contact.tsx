@@ -13,7 +13,7 @@ export default function Contact() {
             Visit in person...
           </h3>
 
-          <h4 className="text-cyan-900 pt-4">Service Times:</h4>
+          <h4 className="pt-4 text-cyan-900">Service Times:</h4>
 
           <ul>
             <li>Sunday morning – 9:00 am</li>
@@ -21,7 +21,7 @@ export default function Contact() {
             <li>Wednesday evening – 6:30 pm</li>
           </ul>
 
-          <h4 className="text-cyan-900 pt-4">Address:</h4>
+          <h4 className="pt-4 text-cyan-900">Address:</h4>
           <p>
             <a href="https://maps.app.goo.gl/RoPjrxszdkgHibCu5">
               Unit 9, 16 Sydal Street, Little Mountain, QLD 4551

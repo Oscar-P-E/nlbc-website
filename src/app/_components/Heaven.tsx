@@ -7,7 +7,11 @@ export default function Heaven() {
         </h1>
       </div>
       <div className="flex items-center">
-        <iframe
+        {/* placeholder */}
+        <div className="flex h-[405px] w-[720px] items-center justify-center bg-zinc-500 text-2xl">
+          placeholder for a video
+        </div>
+        {/* <iframe
           width="720"
           height="405"
           src="https://www.youtube-nocookie.com/embed/jDkHWgPDRRE?si=KxOpHqBBZ_H1_Rn0"
@@ -15,7 +19,7 @@ export default function Heaven() {
           frameBorder="0"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
-        ></iframe>
+        ></iframe> */}
       </div>
     </div>
   );
