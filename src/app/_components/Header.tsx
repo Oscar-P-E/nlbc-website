@@ -21,7 +21,7 @@ export default function Header() {
 
   return (
     <nav
-      className={`sticky -top-16 flex h-32 gap-x-8 px-2 transition-all duration-1000 ${isScrolled ? "bg-opacity-80 bg-gradient-to-r from-transparent to-zinc-900" : "bg-zinc-900 bg-opacity-100"}`}
+      className={`sticky -top-16 z-40 flex h-32 gap-x-8 px-2 transition-all duration-1000 ${isScrolled ? "bg-opacity-80 bg-gradient-to-r from-transparent to-zinc-900" : "bg-zinc-900 bg-opacity-100"}`}
     >
       <div
         className={`relative my-auto h-28 w-[342px] transition-all duration-500 ${isScrolled ? "pointer-events-none opacity-0" : "opacity-100"}`}
@@ -30,8 +30,8 @@ export default function Header() {
           <Image
             src="/img/logo.png"
             alt="New Life Baptist Church"
-            layout="fill" // fixed, intrinsic, responsive, fill
-            objectFit="contain" // cover, contain, etc
+            layout="fill"
+            objectFit="contain"
           />
         </Link>
       </div>
@@ -40,10 +40,10 @@ export default function Header() {
           <Link href="/">Home</Link>
         </li>
         <li className="flex shrink-0 transition-all hover:opacity-50">
-          <Link href="/about">About Us</Link>
+          <Link href="/#about">About Us</Link>
         </li>
         <li className="flex shrink-0 transition-all hover:opacity-50">
-          <Link href="/contact">Contact Us</Link>
+          <Link href="/#contact">Contact Us</Link>
         </li>
 
         <li className="flex shrink-0 transition-all hover:opacity-50">

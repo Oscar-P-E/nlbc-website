@@ -1,14 +1,17 @@
 export default function Contact() {
   return (
-    <div className="prose md:prose-lg lg:prose-2xl prose-zinc prose-img:my-0 mx-auto max-w-none bg-zinc-100 px-4 pb-20 pt-20">
-      <div className="font-body mx-auto grid w-11/12 max-w-screen-xl grid-cols-12 justify-items-center gap-10">
-        <div className="prose-headings:my-0 col-span-12 flex w-full grow items-center rounded-xl border-4 border-zinc-900 py-14">
+    <div
+      id="contact"
+      className="prose prose-zinc mx-auto max-w-none bg-zinc-100 px-4 pb-20 pt-20 md:prose-lg lg:prose-2xl prose-img:my-0"
+    >
+      <div className="mx-auto grid w-11/12 max-w-screen-xl grid-cols-12 justify-items-center gap-10 font-body">
+        <div className="col-span-12 flex w-full grow items-center rounded-xl border-4 border-zinc-900 py-14 prose-headings:my-0">
           <h1 className="mx-auto w-fit text-center text-zinc-900">
             Contact Us
           </h1>
         </div>
 
-        <div className="prose-headings:mt-0 prose-ol:pl-0 prose-ol:ml-4 prose-li:list-none prose-li:pl-0 prose-ul:pl-0 prose-ul:ml-0 col-span-7 w-full rounded-xl bg-zinc-200 px-14 py-14">
+        <div className="col-span-7 w-full rounded-xl bg-zinc-200 px-14 py-14 prose-headings:mt-0 prose-ol:ml-4 prose-ol:pl-0 prose-ul:ml-0 prose-ul:pl-0 prose-li:list-none prose-li:pl-0">
           <h3 className="w-fit bg-gradient-to-r from-zinc-950 to-cyan-900 bg-clip-text pb-1.5  text-transparent ">
             Visit in person...
           </h3>
@@ -40,7 +43,7 @@ export default function Contact() {
           ></iframe>
         </div>
 
-        <div className="prose-headings:mt-0 prose-ol:pl-0 prose-ol:ml-4 col-span-5 rounded-xl bg-zinc-200 px-14 py-14">
+        <div className="col-span-5 rounded-xl bg-zinc-200 px-14 py-14 prose-headings:mt-0 prose-ol:ml-4 prose-ol:pl-0">
           <h3 className="w-fit bg-gradient-to-r from-zinc-950 to-cyan-900 bg-clip-text pb-1.5  text-transparent ">
             Send an email...
           </h3>
@@ -76,7 +79,7 @@ export default function Contact() {
 
             <button
               type="submit"
-              className="mx-auto min-w-[10rem] rounded-xl bg-zinc-900 p-2 text-zinc-100"
+              className="w-40 rounded-xl bg-zinc-900 p-2 font-heading text-zinc-100 transition-all duration-300 ease-in-out  hover:bg-cyan-900 hover:text-zinc-50"
             >
               Send
             </button>

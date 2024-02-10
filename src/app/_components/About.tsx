@@ -2,13 +2,16 @@ import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 
 export default function About() {
   return (
-    <div className="prose md:prose-lg lg:prose-2xl prose-zinc prose-img:my-0 mx-auto max-w-none  bg-zinc-400 px-4 pb-20 pt-20">
-      <div className="font-body mx-auto grid w-11/12 max-w-screen-xl grid-cols-12 justify-items-center gap-10">
-        <div className="prose-headings:my-0 col-span-12 flex w-full grow items-center rounded-xl border-4 border-zinc-50 py-14">
+    <div
+      id="about"
+      className="prose prose-zinc mx-auto max-w-none bg-zinc-400 px-4 pb-20  pt-20 md:prose-lg lg:prose-2xl prose-img:my-0"
+    >
+      <div className="mx-auto grid w-11/12 max-w-screen-xl grid-cols-12 justify-items-center gap-10 font-body">
+        <div className="col-span-12 flex w-full grow items-center rounded-xl border-4 border-zinc-50 py-14 prose-headings:my-0">
           <h1 className="mx-auto w-fit text-center  text-zinc-50">About Us</h1>
         </div>
 
-        <div className="prose-p:my-0 col-span-4 max-w-prose rounded-xl bg-zinc-200 px-14 py-14 italic text-opacity-80">
+        <div className="col-span-4 max-w-prose rounded-xl bg-zinc-200 px-14 py-14 italic text-opacity-80 prose-p:my-0">
           <p>
             <FaQuoteLeft className="mb-8 opacity-30" />
             Go ye therefore, and teach all nations, baptizing them in the name
@@ -22,18 +25,18 @@ export default function About() {
           <FaQuoteRight className="ml-auto mt-8 opacity-30" />
         </div>
 
-        <div className="prose-headings:my-0 relative col-span-8">
+        <div className="relative col-span-8 prose-headings:my-0">
           <img
             src="/img/first_gathering.jpg"
             alt="Our first church gathering"
             className="h-full w-full rounded-xl object-cover object-right lg:object-left"
           />
-          <span className="font-heading absolute bottom-0 left-0 w-full rounded-b-xl bg-zinc-900 bg-opacity-50 p-4 text-center text-zinc-100 text-opacity-90 opacity-80">
+          <span className="absolute bottom-0 left-0 w-full rounded-b-xl bg-zinc-900 bg-opacity-50 p-4 text-center font-heading text-zinc-100 text-opacity-90 opacity-80">
             Our first church gathering
           </span>
         </div>
 
-        <div className="prose-headings:mt-0 prose-ol:pl-0 prose-ol:ml-4 col-span-8 rounded-xl bg-zinc-200 px-14 py-14">
+        <div className="col-span-8 rounded-xl bg-zinc-200 px-14 py-14 prose-headings:mt-0 prose-ol:ml-4 prose-ol:pl-0">
           <h2 className="w-fit bg-gradient-to-r from-zinc-950 to-cyan-900 bg-clip-text pb-1.5  text-transparent">
             Our Church
           </h2>
@@ -62,7 +65,7 @@ export default function About() {
           </p>
         </div>
 
-        <div className="prose-p:my-0 col-span-4 max-w-prose rounded-xl bg-zinc-500 px-14 py-14 italic text-zinc-100 text-opacity-80">
+        <div className="col-span-4 max-w-prose rounded-xl bg-zinc-500 px-14 py-14 italic text-zinc-100 text-opacity-80 prose-p:my-0">
           <p>
             <FaQuoteLeft className="mb-8 opacity-30" />
             Therefore we are buried with him by baptism into death: that like as
@@ -74,19 +77,19 @@ export default function About() {
         </div>
 
         {/* subdivision */}
-        <div className="prose-headings:my-0 relative col-span-4 grid grid-rows-2 gap-10">
-          <div className="prose-headings:my-0 relative row-span-1">
+        <div className="relative col-span-4 grid grid-rows-2 gap-10 prose-headings:my-0">
+          <div className="relative row-span-1 prose-headings:my-0">
             <img
               src="/img/pastor_2.jpg"
               alt="Pastor Kevin Sepulveda"
               className="h-full w-full rounded-xl object-cover object-center"
             />
-            <span className="font-heading absolute bottom-0 left-0 w-full rounded-b-xl bg-zinc-900 bg-opacity-50 p-4 text-center text-zinc-100 text-opacity-90 opacity-80">
+            <span className="absolute bottom-0 left-0 w-full rounded-b-xl bg-zinc-900 bg-opacity-50 p-4 text-center font-heading text-zinc-100 text-opacity-90 opacity-80">
               Pastor Kevin Sepulveda
             </span>
           </div>
 
-          <div className="prose-p:my-0 row-span-1 flex max-w-prose flex-col justify-center rounded-xl bg-zinc-600 px-14 py-14 italic text-zinc-100 text-opacity-80">
+          <div className="row-span-1 flex max-w-prose flex-col justify-center rounded-xl bg-zinc-600 px-14 py-14 italic text-zinc-100 text-opacity-80 prose-p:my-0">
             <p>
               <FaQuoteLeft className="mb-8 opacity-30" />
               This is a true saying, if a man desire the office of a bishop, he
@@ -100,7 +103,7 @@ export default function About() {
         </div>
         {/* end subdivision */}
 
-        <div className="prose-headings:mt-0 prose-ol:pl-0 prose-ol:ml-4 col-span-8 rounded-xl bg-zinc-200 px-14 py-14">
+        <div className="col-span-8 rounded-xl bg-zinc-200 px-14 py-14 prose-headings:mt-0 prose-ol:ml-4 prose-ol:pl-0">
           <h2 className="w-fit bg-gradient-to-r from-zinc-950 to-cyan-900 bg-clip-text pb-1.5  text-transparent">
             Our Pastor
           </h2>
@@ -136,7 +139,7 @@ export default function About() {
           </p>
         </div>
 
-        <div className="prose-headings:mt-0 prose-ol:pl-0 prose-ol:ml-4 col-span-7 rounded-xl bg-zinc-200 px-14 py-14">
+        <div className="col-span-7 rounded-xl bg-zinc-200 px-14 py-14 prose-headings:mt-0 prose-ol:ml-4 prose-ol:pl-0">
           <h2 className="w-fit bg-gradient-to-r from-zinc-950 to-cyan-900 bg-clip-text pb-1.5  text-transparent">
             Soul Winning
           </h2>
@@ -159,7 +162,7 @@ export default function About() {
           </p>
         </div>
 
-        <div className="prose-p:my-0 col-span-5 max-w-prose rounded-xl bg-zinc-600 px-14 py-14 italic text-zinc-100 text-opacity-80">
+        <div className="col-span-5 max-w-prose rounded-xl bg-zinc-600 px-14 py-14 italic text-zinc-100 text-opacity-80 prose-p:my-0">
           <p>
             <FaQuoteLeft className="mb-8 opacity-30" />
             And how shall they preach, except they be sent? as it is written,
@@ -172,7 +175,7 @@ export default function About() {
           <FaQuoteRight className="ml-auto mt-8 opacity-30" />
         </div>
 
-        <div className="prose-headings:my-0 relative col-span-5 max-h-[32rem] w-full">
+        <div className="relative col-span-5 max-h-[32rem] w-full prose-headings:my-0">
           <img
             src="/img/soul_winning_pastor.jpg"
             alt="Pastor Soul Winning"
@@ -180,7 +183,7 @@ export default function About() {
           />
         </div>
 
-        <div className="prose-headings:my-0 relative col-span-7 max-h-[32rem] w-full">
+        <div className="relative col-span-7 max-h-[32rem] w-full prose-headings:my-0">
           <img
             src="/img/soul_winning_1.webp"
             alt="Soul Winning (Censored)"
