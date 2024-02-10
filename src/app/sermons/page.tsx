@@ -7,6 +7,7 @@ export default function About() {
     <div>
       <Header />
       <Sermons />
+
       <div className="border-y">
         <Footer />
       </div>

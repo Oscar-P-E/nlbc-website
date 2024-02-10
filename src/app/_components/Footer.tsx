@@ -1,14 +1,9 @@
-import {
-  FaFacebook,
-  FaFacebookSquare,
-  FaYoutube,
-  FaYoutubeSquare,
-} from "react-icons/fa";
+import { FaFacebook, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
   return (
     <footer className="">
-      <div className="prose prose-zinc prose-invert mx-auto w-11/12 max-w-screen-xl px-0 py-20 text-center text-center md:prose-lg lg:prose-xl">
+      <div className="prose prose-zinc prose-invert mx-auto w-11/12 max-w-screen-xl px-0 pb-16 pt-20 text-center md:prose-lg lg:prose-xl">
         <h1 className="uppercase">New Life Baptist Church</h1>
         <p className="">
           <a
@@ -22,13 +17,13 @@ export default function Footer() {
           {/* youtube, facebook */}
           <a
             href="https://www.youtube.com/@NewLifeBaptistChurch"
-            className="mx-4 no-underline hover:underline"
+            className="mx-4"
           >
             <FaYoutube className="inline hover:scale-105" />
           </a>
           <a
             href="https://www.facebook.com/NLBCsunshinecoast/"
-            className="mx-4 no-underline hover:underline"
+            className="mx-4"
           >
             <FaFacebook className="inline hover:scale-105" />
           </a>
