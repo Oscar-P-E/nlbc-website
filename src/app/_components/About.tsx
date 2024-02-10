@@ -7,11 +7,11 @@ export default function About() {
       className="prose prose-zinc mx-auto max-w-none bg-zinc-400 px-4 pb-20  pt-20 md:prose-lg lg:prose-2xl prose-img:my-0"
     >
       <div className="mx-auto grid w-11/12 max-w-screen-xl grid-cols-12 justify-items-center gap-10 font-body">
-        <div className="col-span-12 flex w-full grow items-center rounded-xl border-4 border-zinc-50 py-14 prose-headings:my-0">
+        <div className="col-span-12 flex w-full grow items-center rounded-xl border-4 border-zinc-50 py-14 shadow-lg prose-headings:my-0">
           <h1 className="mx-auto w-fit text-center  text-zinc-50">About Us</h1>
         </div>
 
-        <div className="col-span-4 max-w-prose rounded-xl bg-zinc-200 px-14 py-14 italic text-opacity-80 prose-p:my-0">
+        <div className="col-span-4 max-w-prose rounded-xl bg-zinc-200 px-14 py-14 italic text-opacity-80 shadow-lg prose-p:my-0">
           <p>
             <FaQuoteLeft className="mb-8 opacity-30" />
             Go ye therefore, and teach all nations, baptizing them in the name
@@ -25,7 +25,7 @@ export default function About() {
           <FaQuoteRight className="ml-auto mt-8 opacity-30" />
         </div>
 
-        <div className="relative col-span-8 prose-headings:my-0">
+        <div className="relative col-span-8 shadow-lg prose-headings:my-0">
           <img
             src="/img/first_gathering.jpg"
             alt="Our first church gathering"
@@ -36,7 +36,7 @@ export default function About() {
           </span>
         </div>
 
-        <div className="col-span-8 rounded-xl bg-zinc-200 px-14 py-14 prose-headings:mt-0 prose-ol:ml-4 prose-ol:pl-0">
+        <div className="col-span-8 rounded-xl bg-zinc-200 px-14 py-14 shadow-lg prose-headings:mt-0 prose-ol:ml-4 prose-ol:pl-0">
           <h2 className="w-fit bg-gradient-to-r from-zinc-950 to-cyan-900 bg-clip-text pb-1.5  text-transparent">
             Our Church
           </h2>
@@ -65,7 +65,7 @@ export default function About() {
           </p>
         </div>
 
-        <div className="col-span-4 max-w-prose rounded-xl bg-zinc-500 px-14 py-14 italic text-zinc-100 text-opacity-80 prose-p:my-0">
+        <div className="col-span-4  max-w-prose rounded-xl bg-zinc-500 px-14 py-14 italic text-zinc-100 text-opacity-80 shadow-lg prose-p:my-0">
           <p>
             <FaQuoteLeft className="mb-8 opacity-30" />
             Therefore we are buried with him by baptism into death: that like as
@@ -78,7 +78,7 @@ export default function About() {
 
         {/* subdivision */}
         <div className="relative col-span-4 grid grid-rows-2 gap-10 prose-headings:my-0">
-          <div className="relative row-span-1 prose-headings:my-0">
+          <div className="relative row-span-1 shadow-lg prose-headings:my-0">
             <img
               src="/img/pastor_2.jpg"
               alt="Pastor Kevin Sepulveda"
@@ -89,7 +89,7 @@ export default function About() {
             </span>
           </div>
 
-          <div className="row-span-1 flex max-w-prose flex-col justify-center rounded-xl bg-zinc-600 px-14 py-14 italic text-zinc-100 text-opacity-80 prose-p:my-0">
+          <div className="row-span-1 flex max-w-prose flex-col justify-center rounded-xl bg-zinc-600 px-14 py-14 italic text-zinc-100 text-opacity-80 shadow-lg prose-p:my-0">
             <p>
               <FaQuoteLeft className="mb-8 opacity-30" />
               This is a true saying, if a man desire the office of a bishop, he
@@ -103,7 +103,7 @@ export default function About() {
         </div>
         {/* end subdivision */}
 
-        <div className="col-span-8 rounded-xl bg-zinc-200 px-14 py-14 prose-headings:mt-0 prose-ol:ml-4 prose-ol:pl-0">
+        <div className="col-span-8 rounded-xl bg-zinc-200 px-14 py-14 shadow-lg prose-headings:mt-0 prose-ol:ml-4 prose-ol:pl-0">
           <h2 className="w-fit bg-gradient-to-r from-zinc-950 to-cyan-900 bg-clip-text pb-1.5  text-transparent">
             Our Pastor
           </h2>
@@ -116,9 +116,7 @@ export default function About() {
           <p>
             He was baptised at Bethany Baptist Church in 2002 and wedded his
             wife Cristina in 2004. The Lord has blessed their marriage with
-            twelve precious children: Isabel, Nicolas, Matias, Cristian,
-            Sebastian, Jonathan, Liliana, Emilia, Samuel, Adrian, Elias, and
-            Elena.
+            twelve precious children.
           </p>
           <p>
             At Victory Baptist Church, Kevin Sepulveda served in numerous
@@ -139,7 +137,7 @@ export default function About() {
           </p>
         </div>
 
-        <div className="col-span-7 rounded-xl bg-zinc-200 px-14 py-14 prose-headings:mt-0 prose-ol:ml-4 prose-ol:pl-0">
+        <div className="col-span-7 rounded-xl bg-zinc-200 px-14 py-14 shadow-lg prose-headings:mt-0 prose-ol:ml-4 prose-ol:pl-0">
           <h2 className="w-fit bg-gradient-to-r from-zinc-950 to-cyan-900 bg-clip-text pb-1.5  text-transparent">
             Soul Winning
           </h2>
@@ -162,7 +160,7 @@ export default function About() {
           </p>
         </div>
 
-        <div className="col-span-5 max-w-prose rounded-xl bg-zinc-600 px-14 py-14 italic text-zinc-100 text-opacity-80 prose-p:my-0">
+        <div className="col-span-5 max-w-prose rounded-xl bg-zinc-600 px-14 py-14 italic text-zinc-100 text-opacity-80 shadow-lg prose-p:my-0">
           <p>
             <FaQuoteLeft className="mb-8 opacity-30" />
             And how shall they preach, except they be sent? as it is written,
@@ -175,7 +173,7 @@ export default function About() {
           <FaQuoteRight className="ml-auto mt-8 opacity-30" />
         </div>
 
-        <div className="relative col-span-5 max-h-[32rem] w-full prose-headings:my-0">
+        <div className="relative col-span-5 max-h-[32rem] w-full shadow-lg prose-headings:my-0">
           <img
             src="/img/soul_winning_pastor.jpg"
             alt="Pastor Soul Winning"
@@ -183,7 +181,7 @@ export default function About() {
           />
         </div>
 
-        <div className="relative col-span-7 max-h-[32rem] w-full prose-headings:my-0">
+        <div className="relative col-span-7 max-h-[32rem] w-full shadow-lg prose-headings:my-0">
           <img
             src="/img/soul_winning_1.webp"
             alt="Soul Winning (Censored)"
