@@ -19,4 +19,47 @@
   .serif-heading {
     @apply font-body;
   }
+
+  /* custom curve 1 */
+  .curves {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .curves svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 52px;
+  }
+
+  .curves .shape-fill {
+    fill: #e4e4e7;
+  }
+
+  /* custom curve 2 */
+  .curves-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .curves-2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 52px;
+    transform: rotateY(180deg);
+  }
+
+  .curves-2 .shape-fill {
+    fill: #a1a1aa;
+  }
 }
