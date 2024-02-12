@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { Spin as Hamburger } from "hamburger-react";
+import { Cross as Hamburger } from "hamburger-react";
 
 type ExpandingNavProps = {
   isScrolled: boolean;
@@ -15,6 +15,8 @@ export default function ExpandingNav({
 }: ExpandingNavProps) {
   const toggleExpanded = () => {
     setIsExpanded(!isExpanded);
+
+    // const [isOpen, setOpen] = useState(false);
   };
 
   return (
@@ -31,33 +33,34 @@ export default function ExpandingNav({
         /** The duration of the animation. Can be set to zero if no animation is desired. */
         // duration={0.6}
         /** A valid `transition-timing-function` CSS value, for example 'ease-out'. */
-        easing="ease-in-out"
+        // easing="ease-in-out"
         /** Hides the default browser focus style. */
         hideOutline={true}
         /** An ARIA label to improve accessibility. */
         label="Toggle Navigation"
         /** A callback which receives a single boolean argument, indicating if the icon is toggled. */
-        onToggle={toggleExpanded}
+        // onToggle={toggleExpanded}
         /** Specifies if the icon bars should be rounded. */
         rounded={true}
         /** A number between 12 and 48, which sets the size of the icon. */
-        // size={40}
+        // size={24}
         /** A way to provide your own state action. Has to be used together with a state value (the `toggled` prop). */
-        // toggle?: Dispatch<SetStateAction<boolean>>;
+        toggle={toggleExpanded}
         /** A way to provide your own state value. Can be used together with a state action (the `toggle` prop). */
-        // toggled?: boolean;
+        toggled={isExpanded}
       />
 
       <h1
-        className={`${isScrolled || isExpanded ? "opacity-100 delay-100" : "pointer-events-none opacity-0 duration-0"} absolute left-1/2 top-1/2 w-fit -translate-x-1/2 -translate-y-1/2 whitespace-nowrap text-center font-heading text-xl font-bold transition-all duration-1000`}
+        className={`${isScrolled || isExpanded ? "opacity-100 delay-100" : "pointer-events-none opacity-0 !duration-0"} absolute left-1/2 top-1/2 w-fit -translate-x-1/2 -translate-y-1/2 whitespace-nowrap text-center font-heading text-xl font-bold transition-all duration-1000`}
       >
         New Life Baptist Church
       </h1>
 
       {isExpanded && (
-        <ul className="fade-in prose-xl absolute left-0 top-12 flex h-svh w-full flex-shrink grow flex-col bg-zinc-900 bg-opacity-95 p-8 pt-12 font-heading uppercase text-zinc-200 prose-li:p-0">
+        <ul className="fade-in-nav prose-xl absolute left-0 top-12 flex h-svh w-full flex-shrink grow flex-col bg-zinc-900 bg-opacity-95 p-8 pt-12 font-heading uppercase text-zinc-200 prose-li:p-0">
           <li>
             <Link
+              onClick={toggleExpanded}
               className="flex w-full border-b border-zinc-200 border-opacity-50 pb-1 transition-all hover:opacity-50"
               href="/"
             >
@@ -66,6 +69,7 @@ export default function ExpandingNav({
           </li>
           <li>
             <Link
+              onClick={toggleExpanded}
               className="flex border-b border-zinc-200 border-opacity-50 pb-1 transition-all hover:opacity-50"
               href="/#about"
             >
@@ -74,6 +78,7 @@ export default function ExpandingNav({
           </li>
           <li>
             <Link
+              onClick={toggleExpanded}
               className="flex border-b border-zinc-200 border-opacity-50 pb-1 transition-all hover:opacity-50"
               href="/#contact"
             >
@@ -83,6 +88,7 @@ export default function ExpandingNav({
 
           <li>
             <Link
+              onClick={toggleExpanded}
               className="flex border-b border-zinc-200 border-opacity-50 pb-1 transition-all hover:opacity-50"
               href="/sermons"
             >
@@ -92,6 +98,7 @@ export default function ExpandingNav({
 
           <li>
             <Link
+              onClick={toggleExpanded}
               className="flex border-b border-zinc-200 border-opacity-50 pb-1 transition-all hover:opacity-50"
               href="/give"
             >

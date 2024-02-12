@@ -62,4 +62,20 @@
   .curves-2 .shape-fill {
     fill: #a1a1aa;
   }
+
+  /* expanding nav fade in */
+  .fade-in-nav {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 }

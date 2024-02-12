@@ -13,9 +13,9 @@ export default function Sermons() {
     <>
       <Header />
 
-      <div className="prose prose-zinc prose-invert mx-auto w-11/12 max-w-screen-xl px-0 pb-24 pt-32 text-center md:prose-lg lg:prose-2xl prose-img:my-0">
+      <div className="prose prose-zinc prose-invert mx-auto w-11/12 max-w-screen-xl px-0 pb-24 pt-8 text-center md:prose-lg lg:prose-2xl prose-img:my-0 md:pt-32">
         <h1 className="">Watch Preaching Online</h1>
-        <h3 className="pb-4 pt-10 text-left capitalize opacity-80">
+        <h3 className="pb-0 pt-4 text-left capitalize opacity-80 md:pb-4 md:pt-10">
           Latest video:
         </h3>
         <div className="relative aspect-video">
@@ -27,10 +27,10 @@ export default function Sermons() {
           ></iframe>
         </div>
 
-        <h3 className="pb-4 pt-10 text-left capitalize opacity-80">
+        <h3 className="pb-0 pt-12 text-left capitalize opacity-80 md:pb-4">
           Previous Videos:
         </h3>
-        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-x-12 gap-y-14 md:grid-cols-2 md:gap-x-8 md:gap-y-8 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8">
           {videoIndices.map((i) => (
             <div key={i} className="relative aspect-video">
               <iframe
@@ -41,6 +41,17 @@ export default function Sermons() {
               ></iframe>
             </div>
           ))}
+          <div
+            key={5}
+            className="relative hidden aspect-video md:inline lg:hidden"
+          >
+            <iframe
+              className="absolute left-0 top-0 h-full w-full rounded-lg"
+              title={`Previous Upload ${5}`}
+              allowFullScreen
+              src={`https://www.youtube.com/embed?listType=playlist&list=${allVideosID}&index=${5}`}
+            ></iframe>
+          </div>
         </div>
 
         <div className="pb-4 pt-10">

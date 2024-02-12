@@ -32,7 +32,7 @@ export default function Header() {
         className={`-top-16 z-40 flex h-32 gap-x-8 px-2 transition-all duration-1000 lg:sticky ${isScrolled ? "bg-opacity-50 bg-gradient-to-r from-transparent from-10% to-zinc-900 to-[130%]" : "bg-zinc-900 bg-opacity-100"}`}
       >
         <div
-          className={`relative my-auto flex h-full w-full transition-all duration-500 lg:h-28 lg:w-[342px] ${isScrolled || isExpanded ? "pointer-events-none opacity-0" : "opacity-100"}`}
+          className={`relative mx-auto my-auto flex h-full w-4/5 transition-all duration-500 lg:h-28 lg:w-[342px] ${isScrolled || isExpanded ? "pointer-events-none opacity-0" : "opacity-100"}`}
         >
           <Link href="/">
             <Image
