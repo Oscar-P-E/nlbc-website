@@ -49,7 +49,7 @@ export default function ExpandingNav({
       />
 
       <h1
-        className={`${isScrolled || isExpanded ? "opacity-100 delay-100" : "pointer-events-none opacity-0 duration-0"} absolute left-1/2 top-1/2 w-fit -translate-x-1/2 -translate-y-1/2 text-center font-heading text-xl font-bold transition-all duration-1000`}
+        className={`${isScrolled || isExpanded ? "opacity-100 delay-100" : "pointer-events-none opacity-0 duration-0"} absolute left-1/2 top-1/2 w-fit -translate-x-1/2 -translate-y-1/2 whitespace-nowrap text-center font-heading text-xl font-bold transition-all duration-1000`}
       >
         New Life Baptist Church
       </h1>

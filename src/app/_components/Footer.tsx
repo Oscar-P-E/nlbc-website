@@ -4,7 +4,9 @@ export default function Footer() {
   return (
     <footer className="">
       <div className="prose prose-zinc prose-invert mx-auto w-11/12 max-w-screen-xl px-0 pb-12 pt-20 text-center md:prose-lg lg:prose-xl">
-        <h1 className="">New Life Baptist Church</h1>
+        <h1 className="">
+          New Life <span className="whitespace-nowrap">Baptist Church</span>
+        </h1>
         <p className="">
           <a
             href="https://maps.app.goo.gl/RoPjrxszdkgHibCu5"
