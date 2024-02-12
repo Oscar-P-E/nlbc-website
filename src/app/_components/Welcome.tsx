@@ -15,7 +15,7 @@ export default function Welcome() {
             />
           </div>
 
-          <div className="col-span-full rounded-xl bg-zinc-100 px-14 py-14 shadow-lg prose-headings:mt-0 prose-p:mt-0">
+          <div className="col-span-full rounded-xl bg-zinc-100 px-10 md:px-14 py-14 shadow-lg prose-headings:mt-0 prose-p:mt-0">
             <h2 className="w-fit bg-gradient-to-r from-zinc-950 to-cyan-900 bg-clip-text pb-1.5 text-transparent">
               Thank you for visiting us
             </h2>
