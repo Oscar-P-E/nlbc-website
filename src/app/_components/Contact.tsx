@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div
       id="contact"
-      className="prose prose-zinc mx-auto max-w-none bg-zinc-100 px-4 pb-24 pt-32 md:prose-lg lg:prose-2xl prose-img:my-0"
+      className="prose prose-zinc mx-auto max-w-none bg-zinc-100 px-4 pb-24 pt-32 prose-lg lg:prose-2xl prose-img:my-0"
     >
       <div className="mx-auto grid max-w-screen-xl grid-cols-1 justify-items-center gap-10 font-body w-11/12 md:grid-cols-12">
         <div className="col-span-full flex w-full grow items-center rounded-xl border-4 border-zinc-900 py-10 shadow-lg prose-headings:my-0 md:py-14">

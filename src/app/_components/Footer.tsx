@@ -3,7 +3,7 @@ import { FaFacebook, FaYoutube } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="">
-      <div className="prose prose-zinc prose-invert mx-auto max-w-screen-xl px-4 pb-12 pt-20 text-center md:prose-lg lg:prose-xl w-11/12">
+      <div className="prose prose-lg prose-zinc prose-invert mx-auto w-11/12 max-w-screen-xl px-4 pb-12 pt-20 text-center lg:prose-xl">
         <h1 className="">
           New Life <span className="whitespace-nowrap">Baptist Church</span>
         </h1>
@@ -12,7 +12,8 @@ export default function Footer() {
             href="https://maps.app.goo.gl/RoPjrxszdkgHibCu5"
             className="no-underline hover:underline"
           >
-            Unit 9, 16 Sydal Street, Little Mountain, QLD 4551
+            Unit 9, 16 Sydal Street, Little Mountain,{" "}
+            <span className="whitespace-nowrap">QLD 4551</span>
           </a>
         </p>
         <div className="text-4xl">

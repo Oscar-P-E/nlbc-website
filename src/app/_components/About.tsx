@@ -5,7 +5,7 @@ export default function About() {
     <>
       <div
         id="about"
-        className="prose prose-zinc mx-auto max-w-none bg-zinc-400 px-4 pb-24 pt-32 md:prose-lg lg:prose-2xl prose-img:my-0"
+        className="prose prose-zinc mx-auto max-w-none bg-zinc-400 px-4 pb-24 pt-32 prose-lg lg:prose-2xl prose-img:my-0"
       >
         <div className="mx-auto grid w-11/12 max-w-screen-xl grid-cols-1 justify-items-center gap-10 font-body md:grid-cols-12">
           <div className="col-span-full flex w-full grow items-center rounded-xl border-4 border-zinc-50 py-10 shadow-lg prose-headings:my-0 md:py-14">
