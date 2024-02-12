@@ -7,14 +7,14 @@ export default function About() {
         id="about"
         className="prose prose-zinc mx-auto max-w-none bg-zinc-400 px-4 pb-24 pt-32 md:prose-lg lg:prose-2xl prose-img:my-0"
       >
-        <div className="mx-auto grid w-full max-w-screen-xl grid-cols-1 justify-items-center gap-10 font-body md:w-11/12 md:grid-cols-12">
+        <div className="mx-auto grid w-11/12 max-w-screen-xl grid-cols-1 justify-items-center gap-10 font-body md:grid-cols-12">
           <div className="col-span-full flex w-full grow items-center rounded-xl border-4 border-zinc-50 py-10 shadow-lg prose-headings:my-0 md:py-14">
             <h1 className="mx-auto w-fit text-center  text-zinc-50">
               About Us
             </h1>
           </div>
 
-          <div className="col-span-full rounded-xl bg-zinc-200 px-8 py-14 italic text-opacity-80 shadow-lg prose-p:my-0 md:col-span-6 md:px-14 xl:col-span-4">
+          <div className="col-span-full rounded-xl bg-zinc-200 px-10 py-14 italic text-opacity-80 shadow-lg prose-p:my-0 md:col-span-6 md:px-14 xl:col-span-4">
             <p>
               <FaQuoteLeft className="mb-8 opacity-30" />
               Go ye therefore, and teach all nations, baptizing them in the name
@@ -39,7 +39,7 @@ export default function About() {
             </span>
           </div>
 
-          <div className="col-span-full rounded-xl bg-zinc-200 px-8 py-14 shadow-lg prose-headings:mt-0 prose-ol:ml-4 prose-ol:pl-0 md:col-span-full md:px-14 xl:col-span-8">
+          <div className="col-span-full rounded-xl bg-zinc-200 px-10 py-14 shadow-lg prose-headings:mt-0 prose-ol:ml-4 prose-ol:pl-0 md:col-span-full md:px-14 xl:col-span-8">
             <h2 className="w-fit bg-gradient-to-r from-zinc-950 to-cyan-900 bg-clip-text pb-1.5  text-transparent">
               Our Church
             </h2>
@@ -68,7 +68,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="col-span-full rounded-xl bg-zinc-500 px-8 py-14 italic text-zinc-100 text-opacity-80 shadow-lg prose-p:my-0 md:col-span-6 md:px-14 xl:col-span-4">
+          <div className="col-span-full rounded-xl bg-zinc-500 px-10 py-14 italic text-zinc-100 text-opacity-80 shadow-lg prose-p:my-0 md:col-span-6 md:px-14 xl:col-span-4">
             <p>
               <FaQuoteLeft className="mb-8 opacity-30" />
               Therefore we are buried with him by baptism into death: that like
@@ -92,7 +92,7 @@ export default function About() {
               </span>
             </div>
 
-            <div className="row-span-1 flex flex-col justify-center rounded-xl bg-zinc-600 px-8 py-14 italic text-zinc-100 text-opacity-80 shadow-lg prose-p:my-0 md:px-14">
+            <div className="row-span-1 flex flex-col justify-center rounded-xl bg-zinc-600 px-10 py-14 italic text-zinc-100 text-opacity-80 shadow-lg prose-p:my-0 md:px-14">
               <p>
                 <FaQuoteLeft className="mb-8 opacity-30" />
                 This is a true saying, if a man desire the office of a bishop,
@@ -106,7 +106,7 @@ export default function About() {
           </div>
           {/* end subdivision */}
 
-          <div className="col-span-full rounded-xl bg-zinc-200 px-8 py-14 shadow-lg prose-headings:mt-0 prose-ol:ml-4 prose-ol:pl-0 md:col-span-full md:px-14 xl:col-span-8">
+          <div className="col-span-full rounded-xl bg-zinc-200 px-10 py-14 shadow-lg prose-headings:mt-0 prose-ol:ml-4 prose-ol:pl-0 md:col-span-full md:px-14 xl:col-span-8">
             <h2 className="w-fit bg-gradient-to-r from-zinc-950 to-cyan-900 bg-clip-text pb-1.5  text-transparent">
               Our Pastor
             </h2>
@@ -141,7 +141,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="col-span-full rounded-xl bg-zinc-200 px-8 py-14 shadow-lg prose-headings:mt-0 prose-ol:ml-4 prose-ol:pl-0 md:col-span-full md:px-14 xl:col-span-7">
+          <div className="col-span-full rounded-xl bg-zinc-200 px-10 py-14 shadow-lg prose-headings:mt-0 prose-ol:ml-4 prose-ol:pl-0 md:col-span-full md:px-14 xl:col-span-7">
             <h2 className="w-fit bg-gradient-to-r from-zinc-950 to-cyan-900 bg-clip-text pb-1.5  text-transparent">
               Soul Winning
             </h2>
@@ -164,7 +164,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="col-span-full rounded-xl  bg-zinc-600 px-8 py-14 italic text-zinc-100 text-opacity-80 shadow-lg prose-p:my-0 md:col-span-full md:px-14 xl:col-span-5">
+          <div className="col-span-full rounded-xl  bg-zinc-600 px-10 py-14 italic text-zinc-100 text-opacity-80 shadow-lg prose-p:my-0 md:col-span-full md:px-14 xl:col-span-5">
             <p>
               <FaQuoteLeft className="mb-8 opacity-30" />
               And how shall they preach, except they be sent? as it is written,

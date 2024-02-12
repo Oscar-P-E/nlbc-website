@@ -4,14 +4,14 @@ export default function Contact() {
       id="contact"
       className="prose prose-zinc mx-auto max-w-none bg-zinc-100 px-4 pb-24 pt-32 md:prose-lg lg:prose-2xl prose-img:my-0"
     >
-      <div className="mx-auto grid w-full max-w-screen-xl grid-cols-1 justify-items-center gap-10 font-body md:w-11/12 md:grid-cols-12">
+      <div className="mx-auto grid max-w-screen-xl grid-cols-1 justify-items-center gap-10 font-body w-11/12 md:grid-cols-12">
         <div className="col-span-full flex w-full grow items-center rounded-xl border-4 border-zinc-900 py-10 shadow-lg prose-headings:my-0 md:py-14">
           <h1 className="mx-auto w-fit text-center text-zinc-900">
             Contact Us
           </h1>
         </div>
 
-        <div className="col-span-full w-full rounded-xl bg-zinc-200 px-8 py-14 shadow-lg prose-headings:mt-0 prose-ul:ml-0 prose-ul:pl-0 prose-li:list-none prose-li:pl-0 md:col-span-6 md:px-14 xl:col-span-7">
+        <div className="col-span-full w-full rounded-xl bg-zinc-200 px-10 py-14 shadow-lg prose-headings:mt-0 prose-ul:ml-0 prose-ul:pl-0 prose-li:list-none prose-li:pl-0 md:col-span-6 md:px-14 xl:col-span-7">
           <h3 className="w-fit bg-gradient-to-r from-zinc-950 to-cyan-900 bg-clip-text pb-1.5  text-transparent ">
             Visit in person...
           </h3>
@@ -43,7 +43,7 @@ export default function Contact() {
           ></iframe>
         </div>
 
-        <div className="col-span-full rounded-xl bg-zinc-200 px-8 py-14 shadow-lg prose-headings:mt-0 prose-ol:ml-4 prose-ol:pl-0 md:col-span-6 md:px-14 xl:col-span-5">
+        <div className="col-span-full rounded-xl bg-zinc-200 px-10 py-14 shadow-lg prose-headings:mt-0 prose-ol:ml-4 prose-ol:pl-0 md:col-span-6 md:px-14 xl:col-span-5">
           <h3 className="w-fit bg-gradient-to-r from-zinc-950 to-cyan-900 bg-clip-text pb-1.5 text-transparent">
             Send an email...
           </h3>
