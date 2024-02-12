@@ -13,7 +13,7 @@ export default function Sermons() {
     <>
       <Header />
 
-      <div className="prose prose-zinc prose-invert mx-auto w-11/12 max-w-screen-xl px-0 pb-24 pt-8 text-center md:prose-lg lg:prose-2xl prose-img:my-0 md:pt-32">
+      <div className="prose prose-lg prose-zinc prose-invert mx-auto max-w-screen-xl px-5 pb-24 pt-12 text-center md:prose-lg lg:prose-2xl prose-img:my-0 md:w-11/12 md:pt-32">
         <h1 className="">Watch Preaching Online</h1>
         <h3 className="pb-0 pt-4 text-left capitalize opacity-80 md:pb-4 md:pt-10">
           Latest video:

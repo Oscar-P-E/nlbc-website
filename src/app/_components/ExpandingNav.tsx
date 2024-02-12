@@ -21,7 +21,7 @@ export default function ExpandingNav({
 
   return (
     <div
-      className={`fixed left-0 top-0 z-50 h-12  ${isScrolled || isExpanded ? "w-full bg-zinc-900" : "w-fit"} text-zinc-200 lg:hidden`}
+      className={`fixed left-0 top-0 z-50 h-12 opacity-[0.97]  ${isScrolled || isExpanded ? "w-full bg-zinc-900" : "w-fit"} text-zinc-200 lg:hidden`}
     >
       <Hamburger
         /** The color of the icon bars, accepts any CSS-parsable argument. */

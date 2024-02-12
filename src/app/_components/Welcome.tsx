@@ -1,8 +1,8 @@
 export default function Welcome() {
   return (
     <>
-      <div className="prose prose-lg prose-zinc mx-auto max-w-none bg-zinc-200 px-4 pb-24 pt-24 lg:prose-2xl prose-img:my-0 prose-img:rounded-xl">
-        <div className="mx-auto grid w-11/12 max-w-screen-xl grid-cols-1 justify-items-center gap-10 font-body">
+      <div className="prose prose-lg prose-zinc mx-auto max-w-none bg-zinc-200 px-5 pb-24 pt-24 lg:prose-2xl prose-img:my-0 prose-img:rounded-xl">
+        <div className="mx-auto grid max-w-screen-xl grid-cols-1 justify-items-center gap-10 font-body md:w-11/12">
           <div className="relative col-span-full w-full rounded-xl shadow-xl prose-headings:my-0 prose-h1:text-4xl sm:prose-h1:text-6xl md:prose-h1:text-7xl lg:prose-h1:text-8xl">
             <h1 className="absolute top-1/2 mx-auto w-full -translate-y-1/2 border-y-4 border-y-zinc-50 bg-zinc-900 bg-opacity-50 py-2 text-center uppercase text-zinc-50 sm:py-8">
               Welcome to <span className="whitespace-nowrap">New Life</span>{" "}
@@ -15,7 +15,7 @@ export default function Welcome() {
             />
           </div>
 
-          <div className="col-span-full rounded-xl bg-zinc-100 px-10 py-14 shadow-lg prose-headings:mt-0 prose-p:mt-0 md:px-14">
+          <div className="col-span-full rounded-xl bg-zinc-100 px-6 py-10 md:py-14 shadow-lg prose-headings:mt-0 prose-p:mt-0 md:px-14">
             <h2 className="w-fit bg-gradient-to-r from-zinc-950 to-cyan-900 bg-clip-text pb-1.5 text-transparent">
               Thank you for visiting us
             </h2>

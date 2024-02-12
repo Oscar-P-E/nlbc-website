@@ -6,7 +6,7 @@ export default function Give() {
     <>
       <Header />
       <div className="bg-zinc-100">
-        <div className=" prose prose-zinc mx-auto w-11/12 bg-zinc-100 px-0 pb-24 pt-32 text-zinc-900 md:prose-lg lg:prose-2xl prose-ul:ml-0 prose-ul:pl-4 prose-li:pl-0 prose-img:my-0">
+        <div className="prose prose-xl prose-zinc mx-auto bg-zinc-100 px-5 pb-24 pt-12 text-zinc-900 md:prose-lg lg:prose-2xl prose-ul:ml-0 prose-ul:pl-4 prose-li:pl-0 prose-img:my-0 md:w-11/12 md:pt-32">
           <h1 className="text-center">Tithes and Offerings</h1>
 
           <h3 className="pt-4 text-left capitalize text-cyan-900">
