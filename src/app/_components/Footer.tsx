@@ -3,7 +3,7 @@ import { FaFacebook, FaYoutube } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="">
-      <div className="prose prose-zinc prose-invert mx-auto w-11/12 max-w-screen-xl px-0 pb-12 pt-20 text-center md:prose-lg lg:prose-xl">
+      <div className="prose prose-zinc prose-invert mx-auto max-w-screen-xl px-4 pb-12 pt-20 text-center md:prose-lg lg:prose-xl md:w-11/12">
         <h1 className="">
           New Life <span className="whitespace-nowrap">Baptist Church</span>
         </h1>
